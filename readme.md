@@ -55,7 +55,8 @@ GROUP BY c.manufacturer
 ORDER BY quantity_sold DESC
 LIMIT 3
 ```
-   
+# Part 3: System Design 
+   Not familar with system design, shall skip this part. 
 # Part 4: Charts and API 
 Data is retrieved using ```requests``` and processed with ```pandas ```. 
 ![alt text](https://github.com/dstc0116/de_challenge_2022_06/blob/4436311b0ff23fab21a144c1849570f8fc2571a0/chart.png)
