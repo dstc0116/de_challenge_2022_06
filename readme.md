@@ -26,6 +26,8 @@ cp airflow_process_csv.py ~/airflow/dags/
 
 
 # Part 2 Database design 
+> unable to install docker due to device issue.  
+
 The database is designed as following:   
 ![alt text](https://github.com/dstc0116/de_challenge_2022_06/blob/32f838a45c8f2ec13197bca431e1500c38c05f60/database_er.jpg)  (created with drawio)
 
@@ -72,6 +74,7 @@ Steps:
 
 3. train test split 
 4. Model training and prediction 
+   - random forest and decision tree are used 
 5. Prediction based on given parameter:
    Maintenance = High  
    Number of doors = 4  
@@ -80,3 +83,5 @@ Steps:
    Class Value = Good  
    Since number of person is not stated, predictions are made for all 3 scenarios (person = [2,4,5])
    The result is "3" for all scenarios. Suggesting given such parameter, regardless of number of person,buying price will be **high**
+
+Relevant codes are in : [notebook](https://github.com/dstc0116/de_challenge_2022_06/blob/fe120226c63fd75a1387d6c3c652c9f7819ba459/machine_learning.ipynb)
